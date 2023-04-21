@@ -20,7 +20,7 @@ curl https://tenapi.cn/v2/getip -X POST -d 'ip=47.113.220.205'
 
 | 参数名 | 类型 | 必填 | 说明 |
 | --- | --- | --- | --- |
-| ip | string | 否 | 要查询的IP(支持IPV6), 默认返回本机IP |
+| ip | string | 是 | 要查询的IP(支持IPV6), 默认返回本机IP |
 
 ## 返回数据
 
